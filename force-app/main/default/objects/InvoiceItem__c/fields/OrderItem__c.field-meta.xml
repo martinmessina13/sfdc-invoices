@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrderItem__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>A lookup relationship to the Order Product object to link the line item to a specific product.</description>
+    <externalId>false</externalId>
+    <label>Order Product</label>
+    <referenceTo>OrderItem</referenceTo>
+    <relationshipLabel>Invoice Items</relationshipLabel>
+    <relationshipName>Invoice_Items</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

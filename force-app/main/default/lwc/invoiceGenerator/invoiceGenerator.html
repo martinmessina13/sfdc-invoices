@@ -1,0 +1,39 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-modal-header label="New Invoice">
+    </lightning-modal-header>
+    <div class="slds-is-relative datatable">
+        <lightning-spinner 
+            alternative-text="Loading invoices generator" 
+            size="small" 
+            if:true={isLoading}
+        >
+        </lightning-spinner>
+        <lightning-datatable
+                key-field="Id"
+                data={orderItems}
+                columns={columns}
+                oncellchange={handleChange}
+                hide-checkbox-column
+                suppress-bottom-bar
+        >
+        </lightning-datatable>
+        <template lwc:if={error}>
+            <c-error-panel errors={error}></c-error-panel>
+        </template>
+    </div>
+    <!-- <lightning-modal-footer>
+        <lightning-button
+            class="slds-button"
+            variant="neutral"
+            label="Cancel"
+            onclick={handleDismiss}
+        ></lightning-button> -->
+        <lightning-button
+            class="slds-button slds-m-left_x-small"
+            variant="brand"
+            label="Save"
+            onclick={handleSave}
+        ></lightning-button>
+    <!-- </lightning-modal-footer> -->
+</template>
