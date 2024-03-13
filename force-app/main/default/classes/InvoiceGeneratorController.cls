@@ -8,8 +8,19 @@
 
 public with sharing class InvoiceGeneratorController {
 
+    @AuraEnabled(cacheable=true)
+    public static Integer getOrderItemsCount(Id orderId){
+        // Returns the total of Order Items stored in the database.
+        return [
+            SELECT COUNT()
+            FROM OrderItem
+            WHERE OrderId = :orderId
+            WITH SECURITY_ENFORCED
+        ];
+    }
+
     @AuraEnabled(cacheable=true) 
-    public static List<OrderItem> getOrderItems(Id orderId){
+    public static List<OrderItem> getOrderItems(CustomWrapper wrapper){
         // Fetches OrderItems using the Order Id obtained from the current context.
         return [
             SELECT
@@ -18,8 +29,11 @@ public with sharing class InvoiceGeneratorController {
             Quantity,
             TotalPrice
             FROM OrderItem
-            WHERE OrderId = :orderId
+            WHERE OrderId = :wrapper.orderId
             WITH SECURITY_ENFORCED
+            ORDER BY Product2.Name ASC
+            LIMIT :wrapper.pageRecords
+            OFFSET :wrapper.pageOffset
         ];
     }
 
