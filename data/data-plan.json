@@ -1,0 +1,40 @@
+{
+    "excludedFields": [],
+    "sObjects": [
+      {
+        "name": "Pricebook2"
+      },
+      {
+        "name": "Product2",
+        "excludedFields": ["Type"]
+      },
+      {
+        "name": "PricebookEntry",
+        "label": "Standard Pricebook",
+        "filters": "Pricebook2.IsStandard = true"
+      },
+      {
+        "name": "PricebookEntry",
+        "label": "Custom Pricebook",
+        "filters": "Pricebook2.IsStandard = false"
+      },
+      {
+        "name": "Account",
+        "excludedFields": [
+            "CustomerPriority__c",
+            "SLA__c",
+            "Active__c",
+            "NumberofLocations__c",
+            "UpsellOpportunity__c",
+            "SLASerialNumber__c",
+            "SLAExpirationDate__c"
+        ]
+      },
+      {
+        "name": "Order"
+      },
+      {
+        "name": "OrderItem"
+      }
+    ]
+  }

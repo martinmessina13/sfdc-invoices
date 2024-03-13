@@ -13,9 +13,9 @@
     },
     {
         "Product2Id": "01tan000000JhPRAA0",
-        "UnitPrice": 99,
+        "UnitPrice": 99.9,
         "Quantity": 1,
-        "TotalPrice": 99,
+        "TotalPrice": 99.9,
         "Id": "802an000000AePCAA0",
         "Product2": {
             "Name": "TechCare Premium Support Subscription",

@@ -1,0 +1,80 @@
+{
+  "attributes": {
+    "type": "Order"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Order",
+        "referenceId": "OrderRef1"
+      },
+      "AccountId": "AccountRef14",
+      "Pricebook2Id": "PriceBookRef2",
+      "EffectiveDate": "2024-02-07",
+      "EndDate": null,
+      "IsReductionOrder": false,
+      "Status": "Draft",
+      "Description": null,
+      "CustomerAuthorizedDate": null,
+      "CompanyAuthorizedById": "SfdxOrgUser",
+      "CompanyAuthorizedDate": null,
+      "Type": null,
+      "BillingStreet": null,
+      "BillingCity": null,
+      "BillingState": null,
+      "BillingPostalCode": null,
+      "BillingCountry": null,
+      "BillingLatitude": null,
+      "BillingLongitude": null,
+      "BillingGeocodeAccuracy": null,
+      "ShippingStreet": null,
+      "ShippingCity": null,
+      "ShippingState": null,
+      "ShippingPostalCode": null,
+      "ShippingCountry": null,
+      "ShippingLatitude": null,
+      "ShippingLongitude": null,
+      "ShippingGeocodeAccuracy": null,
+      "Name": null,
+      "PoDate": null,
+      "PoNumber": null,
+      "OrderReferenceNumber": null
+    },
+    {
+      "attributes": {
+        "type": "Order",
+        "referenceId": "OrderRef2"
+      },
+      "AccountId": "AccountRef14",
+      "EffectiveDate": "2024-02-07",
+      "EndDate": null,
+      "IsReductionOrder": false,
+      "Status": "Draft",
+      "Description": null,
+      "CustomerAuthorizedDate": null,
+      "CompanyAuthorizedById": "SfdxOrgUser",
+      "CompanyAuthorizedDate": null,
+      "Type": null,
+      "BillingStreet": null,
+      "BillingCity": null,
+      "BillingState": null,
+      "BillingPostalCode": null,
+      "BillingCountry": null,
+      "BillingLatitude": null,
+      "BillingLongitude": null,
+      "BillingGeocodeAccuracy": null,
+      "ShippingStreet": null,
+      "ShippingCity": null,
+      "ShippingState": null,
+      "ShippingPostalCode": null,
+      "ShippingCountry": null,
+      "ShippingLatitude": null,
+      "ShippingLongitude": null,
+      "ShippingGeocodeAccuracy": null,
+      "Name": null,
+      "PoDate": null,
+      "PoNumber": null,
+      "OrderReferenceNumber": null
+    }
+  ]
+}

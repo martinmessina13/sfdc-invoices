@@ -1,0 +1,292 @@
+{
+  "attributes": {
+    "type": "Product2"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef1"
+      },
+      "Name": "GenWatt Diesel 1000kW",
+      "ProductCode": "GC1060",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef2"
+      },
+      "Name": "GenWatt Diesel 200kW",
+      "ProductCode": "GC1040",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef3"
+      },
+      "Name": "GenWatt Diesel 10kW",
+      "ProductCode": "GC1020",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef4"
+      },
+      "Name": "Installation: Industrial - High",
+      "ProductCode": "IN7080",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef5"
+      },
+      "Name": "SLA: Silver",
+      "ProductCode": "SL9040",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef6"
+      },
+      "Name": "GenWatt Propane 500kW",
+      "ProductCode": "GC3040",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef7"
+      },
+      "Name": "SLA: Platinum",
+      "ProductCode": "SL9080",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef8"
+      },
+      "Name": "GenWatt Propane 100kW",
+      "ProductCode": "GC3020",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef9"
+      },
+      "Name": "GenWatt Propane 1500kW",
+      "ProductCode": "GC3060",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef10"
+      },
+      "Name": "SLA: Bronze",
+      "ProductCode": "SL9020",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef11"
+      },
+      "Name": "GenWatt Gasoline 750kW",
+      "ProductCode": "GC5040",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef12"
+      },
+      "Name": "Installation: Portable",
+      "ProductCode": "IN7020",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef13"
+      },
+      "Name": "SLA: Gold",
+      "ProductCode": "SL9060",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef14"
+      },
+      "Name": "GenWatt Gasoline 300kW",
+      "ProductCode": "GC5020",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef15"
+      },
+      "Name": "Installation: Industrial - Low",
+      "ProductCode": "IN7040",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef16"
+      },
+      "Name": "GenWatt Gasoline 2000kW",
+      "ProductCode": "GC5060",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef17"
+      },
+      "Name": "Installation: Industrial - Medium",
+      "ProductCode": "IN7060",
+      "Description": null,
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef18"
+      },
+      "Name": "DataShield Enterprise Security Suite",
+      "ProductCode": "20013",
+      "Description": "An advanced cybersecurity solution offering a suite of security services, including threat detection, firewall protection, and encryption. The activation date for DataShield marks the initiation of the cybersecurity services for the customer. This could be crucial for tracking the start of protection and aligning with billing cycles.",
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ProductRef19"
+      },
+      "Name": "TechCare Premium Support Subscription",
+      "ProductCode": "20012",
+      "Description": "A comprehensive premium support subscription service that provides 24/7 assistance, priority access to tech experts, and regular software updates. Customers subscribing to TechCare Premium Support will have an activation date marking the beginning of their subscription period, allowing them to access premium support services.",
+      "IsActive": true,
+      "Family": null,
+      "ExternalId": null,
+      "DisplayUrl": null,
+      "QuantityUnitOfMeasure": null,
+      "StockKeepingUnit": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "attributes": {
+    "type": "Pricebook2"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Pricebook2",
+        "referenceId": "PriceBookRef1"
+      },
+      "Name": "Standard",
+      "IsActive": true,
+      "Description": null
+    },
+    {
+      "attributes": {
+        "type": "Pricebook2",
+        "referenceId": "StandardPriceBook"
+      },
+      "Name": "Standard Price Book",
+      "IsActive": false,
+      "Description": null
+    },
+    {
+      "attributes": {
+        "type": "Pricebook2",
+        "referenceId": "PriceBookRef2"
+      },
+      "Name": "Technology Price Book",
+      "IsActive": true,
+      "Description": null
+    }
+  ]
+}

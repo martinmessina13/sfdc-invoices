@@ -1,39 +1,69 @@
 <!-- sldsValidatorIgnore -->
 <template>
-    <lightning-modal-header label="New Invoice">
-    </lightning-modal-header>
-    <div class="slds-is-relative datatable">
-        <lightning-spinner 
-            alternative-text="Loading invoices generator" 
-            size="small" 
-            if:true={isLoading}
-        >
-        </lightning-spinner>
-        <lightning-datatable
-                key-field="Id"
-                data={orderItems}
-                columns={columns}
-                oncellchange={handleChange}
-                hide-checkbox-column
-                suppress-bottom-bar
-        >
-        </lightning-datatable>
-        <template lwc:if={error}>
-            <c-error-panel errors={error}></c-error-panel>
-        </template>
+  <!-- Modal Header -->
+  <lightning-modal-header label="New Invoice"> </lightning-modal-header>
+  <!-- Modal Content - Datatable -->
+  <div class="slds-modal__content slds-is-relative">
+    <lightning-spinner
+      alternative-text="Loading invoices generator"
+      size="medium"
+      if:true={isLoading}
+    >
+    </lightning-spinner>
+    <lightning-datatable
+      key-field="Id"
+      data={orderItems}
+      columns={columns}
+      oncellchange={handleChange}
+      hide-checkbox-column
+      suppress-bottom-bar
+    >
+    </lightning-datatable>
+    <template lwc:if={error}>
+      <c-error-panel errors={error}></c-error-panel>
+    </template>
+    <div class="slds-grid">
+      <div class="slds-col slds-size_1-of-3 slds-p-around_small slds-align_absolute-center">
+          <lightning-button-icon
+            size="large"
+            class="slds-float_left"
+            icon-name="utility:back"
+            alternative-text="Back"
+            title="Back"
+            variant="bare"
+            onclick={changePage}
+          ></lightning-button-icon>
+      </div>
+      <div class="navigation-pages slds-col slds-size_1-of-3 slds-align_absolute-center">
+        {pageOf}
+      </div>
+      <div class="slds-col slds-size_1-of-3 slds-p-around_small slds-align_absolute-center">
+          <lightning-button-icon
+            size="large"
+            class="slds-float_right"
+            icon-name="utility:forward"
+            alternative-text="Forward"
+            title="Forward"
+            variant="bare"
+            onclick={changePage}
+            ></lightning-button-icon>
+      </div>
     </div>
-    <!-- <lightning-modal-footer>
-        <lightning-button
-            class="slds-button"
-            variant="neutral"
-            label="Cancel"
-            onclick={handleDismiss}
-        ></lightning-button> -->
-        <lightning-button
-            class="slds-button slds-m-left_x-small"
-            variant="brand"
-            label="Save"
-            onclick={handleSave}
-        ></lightning-button>
-    <!-- </lightning-modal-footer> -->
+  </div>
+  <div class="slds-is-relative"></div>
+  <!-- Modal Footer -->
+  <lightning-modal-footer>
+    <lightning-button
+      class="slds-button"
+      variant="brand"
+      label="Cancel"
+      onclick={handleDismiss}
+    ></lightning-button>
+    <lightning-button
+      class="slds-button slds-m-left_x-small"
+      variant="brand"
+      label="Save"
+      onclick={handleSave}
+    ></lightning-button>
+  </lightning-modal-footer>
 </template>

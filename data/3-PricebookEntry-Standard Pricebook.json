@@ -1,0 +1,216 @@
+{
+  "attributes": {
+    "type": "PricebookEntry"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef1"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef2",
+      "UnitPrice": 25000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef2"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef3",
+      "UnitPrice": 5000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef3"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef4",
+      "UnitPrice": 85000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef4"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef5",
+      "UnitPrice": 20000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef5"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef6",
+      "UnitPrice": 50000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef6"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef7",
+      "UnitPrice": 40000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef7"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef8",
+      "UnitPrice": 15000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef8"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef9",
+      "UnitPrice": 120000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef9"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef1",
+      "UnitPrice": 100000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef10"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef10",
+      "UnitPrice": 10000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef11"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef11",
+      "UnitPrice": 75000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef12"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef12",
+      "UnitPrice": 5000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef13"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef13",
+      "UnitPrice": 30000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef14"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef14",
+      "UnitPrice": 35000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef15"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef15",
+      "UnitPrice": 20000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef16"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef16",
+      "UnitPrice": 150000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef17"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef17",
+      "UnitPrice": 50000,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef18"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef18",
+      "UnitPrice": 499.99,
+      "IsActive": true,
+      "UseStandardPrice": false
+    },
+    {
+      "attributes": {
+        "type": "PricebookEntry",
+        "referenceId": "PriceBookEntryRef19"
+      },
+      "Pricebook2Id": "StandardPriceBook",
+      "Product2Id": "ProductRef19",
+      "UnitPrice": 99,
+      "IsActive": true,
+      "UseStandardPrice": false
+    }
+  ]
+}

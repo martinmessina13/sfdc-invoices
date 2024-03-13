@@ -1,0 +1,53 @@
+{
+  "attributes": {
+    "type": "Account"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef14"
+      },
+      "Name": "TechBolt Solutions",
+      "Type": "Customer - Direct",
+      "BillingStreet": "123 Tech Avenue",
+      "BillingCity": "Silicon Valley",
+      "BillingState": "CA",
+      "BillingPostalCode": "95051",
+      "BillingCountry": "United States",
+      "BillingLatitude": null,
+      "BillingLongitude": null,
+      "BillingGeocodeAccuracy": null,
+      "ShippingStreet": "123 Tech Avenue",
+      "ShippingCity": "Silicon Valley",
+      "ShippingState": "CA",
+      "ShippingPostalCode": "95051",
+      "ShippingCountry": "United States",
+      "ShippingLatitude": null,
+      "ShippingLongitude": null,
+      "ShippingGeocodeAccuracy": null,
+      "Phone": "(555) 123-4567",
+      "Fax": null,
+      "AccountNumber": "001",
+      "Website": "www.techboltsolutions.com",
+      "Sic": "3571",
+      "Industry": "Technology",
+      "AnnualRevenue": 50000000,
+      "NumberOfEmployees": 500,
+      "Ownership": null,
+      "TickerSymbol": null,
+      "Description": "TechBolt Solutions is a dynamic and forward-thinking technology company at the forefront of innovation. Established with a passion for pushing the boundaries of what's possible in the tech world, they specialize in providing cutting-edge solutions that empower businesses to thrive in the digital age.",
+      "Rating": null,
+      "Site": null,
+      "Jigsaw": null,
+      "CleanStatus": "Pending",
+      "AccountSource": null,
+      "DunsNumber": null,
+      "Tradestyle": null,
+      "NaicsCode": null,
+      "NaicsDesc": null,
+      "YearStarted": null,
+      "SicDesc": null
+    }
+  ]
+}

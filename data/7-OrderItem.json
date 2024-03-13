@@ -1,0 +1,37 @@
+{
+  "attributes": {
+    "type": "OrderItem"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "OrderItem",
+        "referenceId": "OrderProductRef1"
+      },
+      "Product2Id": "ProductRef18",
+      "OrderId": "OrderRef1",
+      "PricebookEntryId": "PriceBookEntryRef37",
+      "Quantity": 1,
+      "UnitPrice": 499.99,
+      "ListPrice": 499.99,
+      "ServiceDate": null,
+      "EndDate": null,
+      "Description": null
+    },
+    {
+      "attributes": {
+        "type": "OrderItem",
+        "referenceId": "OrderProductRef2"
+      },
+      "Product2Id": "ProductRef19",
+      "OrderId": "OrderRef1",
+      "PricebookEntryId": "PriceBookEntryRef38",
+      "Quantity": 1,
+      "UnitPrice": 99,
+      "ListPrice": 99,
+      "ServiceDate": null,
+      "EndDate": null,
+      "Description": null
+    }
+  ]
+}
