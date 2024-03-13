@@ -54,6 +54,7 @@
 	</types>
 	<types>
 		<members>Standard</members>
+		<members>Admin</members>
 		<members>Standard User Clone</members>
 		<name>Profile</name>
 	</types>

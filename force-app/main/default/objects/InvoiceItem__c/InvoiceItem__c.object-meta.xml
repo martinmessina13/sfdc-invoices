@@ -154,7 +154,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <gender>Feminine</gender>
     <label>Invoice Item</label>
     <nameField>
         <displayFormat>II-{0000}</displayFormat>
